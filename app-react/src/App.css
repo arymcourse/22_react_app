@@ -1,0 +1,229 @@
+@import url('https://fonts.cdnfonts.com/css/dm-serif-display');
+
+body {
+  padding: 60px 0 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container>header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-bottom: 30px;
+}
+
+/* Logo */
+.container>header .logoLink {
+  float: left;
+}
+
+.logoLink {
+  font-size: 72px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+  font-family: 'DM Serif Display', sans-serif;
+}
+
+/* Navigation */
+.container>header .navigation {
+  height: 22px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.container>header ul.navigationList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container>header ul.navigationList>li {
+  float: left;
+}
+
+.container>header ul.navigationList>li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #999;
+  text-decoration: none;
+  display: block;
+  padding: 0 15px;
+}
+
+.container>header ul.navigationList>li a:hover {
+  color: #d7a312;
+  text-decoration: underline;
+}
+
+/* Main seaction */
+.mainSection {
+  float: left;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+/* Post */
+.mainSection .post {
+  float: left;
+  width: 70%;
+  margin: 0;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+}
+
+.post .image {
+  width: 100%;
+}
+
+.post figcaption {
+  width: 100%;
+  float: left;
+  padding-top: 30px;
+}
+
+.post figcaption .title {
+  margin: 0;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+
+  float: left;
+  width: 50%;
+
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 52px;
+}
+
+.post figcaption .description {
+  float: right;
+  width: 50%;
+
+  padding: 0;
+  margin: 0 0 30px 0;
+  box-sizing: border-box;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: #999;
+  ;
+}
+
+.post figcaption .readMoreLinks {
+  display: inline-block;
+  background-color: rgb(248, 88, 88);
+
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+
+  padding: 15px 30px
+}
+
+.post figcaption .readMoreLinks:hover {
+  background-color: rgb(209, 43, 43);
+}
+
+/* List news */
+.mainSection .listNews {
+  padding: 30px;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+
+  float: right;
+  width: 30%;
+
+  color: white;
+
+  background-color: #160746;
+}
+
+.mainSection .listNews li:first-child span {
+  font-size: 38px;
+  color: #d7a312;
+}
+
+.mainSection .listNews li:not(:first-child) {
+  padding: 30px 0 15px 0;
+}
+
+.mainSection .listNews li:not(:first-child):not(:last-child) {
+  border-bottom: 1px solid rgb(166, 166, 166);
+  ;
+}
+
+.mainSection .listNews li a {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+.mainSection .listNews li a:hover {
+  color: #d7a312;
+}
+
+.mainSection .listNews li p {
+  padding: 15px 0;
+  margin: 0;
+  color: rgb(166, 166, 166);
+}
+
+.mainSection .listNews li:last-child p {
+  padding-bottom: 0;
+}
+
+/* Articles section */
+.articlesSection {
+  width: 100%;
+  float: left;
+  margin-bottom: 60px;
+}
+
+.shortArticle {
+  float: left;
+  width: 33.3%;
+  padding: 0 15px 0 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.shortArticle img {
+  float: left;
+  width: 100px;
+}
+
+.shortArticle figcaption {
+  float: right;
+  width: calc(100% - 100px);
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+
+.shortArticle figcaption h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.shortArticle figcaption .number {
+  font-size: 32px;
+  font-weight: 600;
+  color: #b2b2b2;
+}
+
+.shortArticle figcaption .description {
+  color: #b2b2b2;
+}
